@@ -1,0 +1,478 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: #F0FFFF;
+    background-color: #1c1c1c;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes dropin {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes riseup {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 10px auto;
+    background-color: #1c1c1c;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+@media (max-width: 600px) {
+    header {
+        height: 30px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .site-head {
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        vertical-align: middle;
+    }
+    .social-media {
+        text-align: center;
+    }
+    .slogan {
+        text-align: center;
+    }
+    .footer-social-media {
+        text-align: center;
+        align-items: center;
+    }
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    align-content: center;
+    align-self: center;
+    vertical-align: middle;
+}
+@media (max-width: 600px) {
+    .logo {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+.site-head {
+    margin: 0;
+    text-align: center;
+    align-self: center;
+    flex: 2;
+    color: #F0FFFF;
+}
+@media (max-width: 600px) {
+    .site-head {
+        font-size: 15px;
+        text-align: center;
+        flex: 1;
+    }
+}
+.header-logo {
+    width: 110%;
+    height: 100%;
+}
+.icon {
+    display: flex;
+    width: 35px;
+    height: 30px;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+@media (max-width: 600px) {
+    .icon {
+        width: 20px;
+        height: 20px;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+.social-media {
+    height: 35px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: middle;
+    width: 200px;
+}
+@media (max-width: 600px) {
+    .social-media {
+        display: flex;
+        object-position: center;
+        object-fit: cover;
+        justify-content: right;
+        justify-content: space-between;
+        align-content: baseline;
+        vertical-align: bottom;
+        width: 130px;
+    }
+}
+.landing-page {
+    width: auto;
+    height: 91vh;
+    margin: 10px auto;
+    background: linear-gradient(to top, #1c1c1c, rgba(255, 255, 255, 0)), url(Images/bg\ image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+@media (max-width: 600px) {
+    .landing-page {
+        width: auto;
+        height: 70vh;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 10px;
+        justify-content: center;
+        align-content: center;
+        vertical-align: middle;
+    }
+}
+.landing-page-content {
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .landing-page-content {
+        align-self: center;
+        margin-top: 10vh;
+    }
+}
+.morgs-logo {
+    width: 20%;
+    margin-bottom: -9%;
+    color: #F0FFFF;
+    animation: dropin 2s ease-in-out forwards;
+}
+@media (max-width: 600px) {
+    .morgs-logo {
+        width: 40%;
+    }
+}
+.lp-heading {
+    margin: 0;
+    font-size: 10vw;
+    color: #F0FFFF;
+    animation: fadein 2s ease-in-out forwards;
+}
+.lp-slogan {
+    margin-top: 0;
+    font-size: 25px;
+    color: #F0FFFF;
+    animation: fadein 4s ease-in-out forwards;
+}
+@media (max-width: 600px) {
+    .lp-heading {
+        font-size: 50px;
+    }
+    .lp-slogan {
+        font-size: 15px;
+    }
+}
+.portfolio-button {
+    font-size: 15px;
+    background-color: #373a4000;
+    padding: 15px 40px;
+    border-color: #F0FFFF;
+    color: #F0FFFF;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    animation: riseup 3s ease-in-out forwards;
+    transition: all 0.5s;
+}
+.portfolio-button:hover {
+    background-color: #F0FFFF;
+    border: none;
+    color: #3572EF;
+}
+@media (max-width: 700px) {
+    .portfolio-button {
+        font-size: 10px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+.services-provided {
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+.services-provided-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #3572EF;
+}
+.service {
+    padding: 15px;
+}
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 800px) {
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.service-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #3572EF;
+}
+.service-details {
+    font-size: 15px;
+}
+@media (max-width: 800px) {
+    .service-details {
+        font-size: 15px;
+    }
+}
+.about-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #262626;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+@media (max-width: 800px) {
+    .about-contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.about {
+    padding: 25px;
+    text-align: center;
+}
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    align-self: center;
+}
+@media (max-width: 600px) {
+    .about-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 60%;
+        align-self: center;
+    }
+}
+.contact {
+    padding: 15px;
+}
+.contact-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    background: none;
+    border-style: solid;
+    border-color: #F0FFFF;
+    color: #F0FFFF;
+    width: 75%;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    margin: 10px 0;
+    outline: #FAFBFC;
+    border-radius: 4px;
+}
+form input:focus, form textarea:focus {
+    border-style: solid;
+    border-color: #F0FFFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+form button {
+    width: 20% auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    background-color: #33333300;
+    border-style: solid;
+    border-color: #F0FFFF;
+    border-width: 1px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+@media (max-width: 600px) {
+    form button {
+        text-align: center;
+        font-size: 13px;
+    }
+    form input, form textarea {
+        font-size: 13px;
+    }
+}
+form button:hover {
+    background-color: #3572EF;
+    border-color: #3572EF;
+}
+#email, #phone {
+    color: #3572EF;
+    text-align: center;
+}
+.blog {
+    width: auto;
+    background-color: #262626;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+.blog-page-heading {
+    font-size: 50px;
+    text-align: center;
+    color: #3572EF;
+}
+.blog-heading {
+    font-size: 30px;
+    color: #3572EF;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: auto;
+    margin: 10px auto;
+    background-color: #1c1c1c;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px #FAFBFC;
+}
+.footer-social-media {
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+}
+@media (max-width: 600px) {
+    footer {
+        height: 30px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .footer-social-media {
+        display: flex;
+        justify-content: left;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        vertical-align: middle;
+        width: 130px;
+    }
+}
+.slogan {
+    flex: 2;
+    color: #F0FFFF;
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    .slogan {
+        font-size: 13px;
+        text-align: center;
+        align-self: center;
+        vertical-align: middle;
+    }
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+}
+.social-media-link {
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 25px;
+    align-items: center;
+    align-self: center;
+}
+@media (max-width: 600px) {
+    .social-media-link {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
