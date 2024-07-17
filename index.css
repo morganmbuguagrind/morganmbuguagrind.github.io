@@ -219,9 +219,9 @@ header {
     }
 }
 .portfolio-button {
-    font-size: 15px;
+    font-size: 17px;
     background-color: #373a4000;
-    padding: 15px 40px;
+    padding: 13px 40px;
     border-color: #F0FFFF;
     color: #F0FFFF;
     border-style: solid;
@@ -246,12 +246,13 @@ header {
         padding: 10px;
         padding-left: 25px;
         padding-right: 25px;
+        margin-right: 1px;
     }
 }
 .contact-button {
-    font-size: 15px;
+    font-size: 17px;
     background-color: #373a4000;
-    padding: 15px 40px;
+    padding: 13px 40px;
     border-color: #F0FFFF;
     color: #F0FFFF;
     border-style: solid;
@@ -276,6 +277,7 @@ header {
         padding: 10px;
         padding-left: 25px;
         padding-right: 25px;
+        margin-left: 1px;
     }
 }
 .services-provided {
@@ -480,22 +482,22 @@ footer {
 }
 .slogan {
     color: #F0FFFF;
-    font-size: 10px;
+    font-size: 12px;
 }
 @media (max-width: 600px) {
     .slogan {
-        font-size: 8px;
+        font-size: 10px;
         text-align: center;
         align-self: center;
         vertical-align: middle;
     }
 }
 .copyright {
-    font-size: 10px;
+    font-size: 12px;
 }
 @media (max-width: 600px) {
     .copyright {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 img {
