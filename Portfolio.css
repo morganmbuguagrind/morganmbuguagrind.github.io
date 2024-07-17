@@ -11,7 +11,6 @@ header {
     justify-content: space-between;
     width: auto;
     margin: 10px auto;
-    margin-bottom: 20px;
     background-color: #1c1c1c;
     height: 40px;
     padding: 10px;
@@ -124,7 +123,6 @@ header {
     width: auto;
     height: 89vh;
     margin: 10px auto;
-    margin-bottom: 20px;
     background-color: #1c1c1c;
     padding: 10px;
     border-radius: 10px;
@@ -148,7 +146,7 @@ header {
     color: #3572EF;
 }
 .service-details {
-    font-size: 20px;
+    font-size: 15px;
 }
 @media (max-width: 600px) {
     .service-heading {
@@ -166,8 +164,8 @@ footer {
     align-content: center;
     width: auto;
     margin: 10px auto;
-    background-color: #1c1c1c;
     height: auto;
+    background-color: #1c1c1c;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -179,7 +177,7 @@ footer {
     justify-content: center;
     justify-self: center;
     align-self: center;
-    margin: 28px 1px;
+    margin: 15px 1px;
     align-content: center;
     vertical-align: middle;
     text-align: center;
@@ -196,7 +194,7 @@ footer {
     .footer-social-media {
         display: flex;
         justify-content: center;
-        margin: 20px 1px;
+        margin: 4px 1px;
         justify-content: space-between;
         text-align: center;
         align-content: center;
@@ -206,22 +204,23 @@ footer {
 }
 .slogan {
     color: #F0FFFF;
-    font-size: 18px;
+    font-size: 10px;
 }
 @media (max-width: 600px) {
     .slogan {
-        font-size: 13px;
+        font-size: 8px;
         text-align: center;
         align-self: center;
         vertical-align: middle;
     }
 }
 .copyright {
-    font-size: 18px;
+    font-size: 10px;
+    text-align: center;
 }
 @media (max-width: 600px) {
     .copyright {
-        font-size: 13px;
+        font-size: 8px;
     }
 }
 img {
