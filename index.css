@@ -41,7 +41,7 @@ header {
     margin: 10px auto;
     background-color: #1c1c1c;
     height: 40px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
     align-content: center;
@@ -113,8 +113,8 @@ header {
 }
 .icon {
     display: flex;
-    width: 35px;
-    height: 30px;
+    width: 28px;
+    height: 26px;
     align-self: center;
     text-align: center;
     align-content: center;
@@ -188,25 +188,25 @@ header {
     }
 }
 .morgs-logo {
-    width: 20%;
+    width: 18%;
     margin-bottom: -8%;
     color: #F0FFFF;
     animation: dropin 2s ease-in-out forwards;
 }
 @media (max-width: 600px) {
     .morgs-logo {
-        width: 40%;
+        width: 30%;
     }
 }
 .lp-heading {
     margin: 0;
-    font-size: 10vw;
+    font-size:9vw;
     color: #F0FFFF;
     animation: fadein 2s ease-in-out forwards;
 }
 .lp-slogan {
     margin-top: 0;
-    font-size: 28px;
+    font-size: 25px;
     color: #F0FFFF;
     animation: fadein 4s ease-in-out forwards;
 }
@@ -252,7 +252,7 @@ header {
 .contact-button {
     font-size: 17px;
     background-color: #373a4000;
-    padding: 13px 40px;
+    padding: 13px 25px;
     border-color: #F0FFFF;
     color: #F0FFFF;
     border-style: solid;
@@ -275,8 +275,8 @@ header {
     .contact-button {
         font-size: 10px;
         padding: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 17px;
+        padding-right: 17px;
         margin-left: 1px;
     }
 }
@@ -366,6 +366,7 @@ header {
 form input, form textarea {
     background: none;
     border-style: solid;
+    border-width: 1px;
     color: #F0FFFF;
     width: 75%;
     font-size: 15px;
@@ -377,6 +378,7 @@ form input, form textarea {
 }
 form input:focus, form textarea:focus {
     border-style: solid;
+    border-width: 1px;
     border-color: #F0FFFF;
     background: transparent;
     outline: none;
@@ -392,7 +394,6 @@ form button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-self: center;
     background-color: #3572EF;
-    border-style: solid;
     border-color: #3572EF;
     border-width: 1px;
     color: #ffffff;
@@ -411,8 +412,9 @@ form button {
     }
 }
 form button:hover {
-    background-color: #3573efac;
-    border-color: #3573efac;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #3572EF;
 }
 #email, #phone {
     color: #3572EF;
@@ -455,7 +457,7 @@ footer {
     justify-content: center;
     justify-self: center;
     align-self: center;
-    margin: 15px 1px;
+    margin: 3px 1px;
     align-content: center;
     vertical-align: middle;
     text-align: center;
@@ -478,6 +480,25 @@ footer {
         align-content: center;
         vertical-align: middle;
         width: 130px;
+    }
+}
+.footer-icon {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+@media (max-width: 600px) {
+    .footer-icon {
+        width: 20px;
+        height: 20px;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+        vertical-align: middle;
     }
 }
 .slogan {
@@ -521,4 +542,7 @@ img {
         text-align: center;
         vertical-align: middle;
     }
+}
+button {
+    border-width: 0.1px;
 }

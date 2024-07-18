@@ -13,7 +13,7 @@ header {
     margin: 10px auto;
     background-color: #1c1c1c;
     height: 40px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
     align-content: center;
@@ -68,6 +68,7 @@ header {
     align-self: center;
     flex: 2;
     color: #F0FFFF;
+    font-size: 25px;
 }
 @media (max-width: 600px) {
     .site-head {
@@ -81,8 +82,8 @@ header {
     height: 100%;
 }
 .icon {
-    width: 35px;
-    height: 31px;
+    width: 28px;
+    height: 26px;
     align-self: center;
     text-align: center;
     align-content: center;
@@ -177,11 +178,10 @@ footer {
     justify-content: center;
     justify-self: center;
     align-self: center;
-    margin: 15px 1px;
+    margin: 7px 1px;
     align-content: center;
     vertical-align: middle;
     text-align: center;
-    width: 200px;
 }
 @media (max-width: 600px) {
     footer {
@@ -200,6 +200,24 @@ footer {
         align-content: center;
         vertical-align: middle;
         width: 130px;
+    }
+}
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+@media (max-width: 600px) {
+    .footer-icon {
+        width: 20px;
+        height: 20px;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+        vertical-align: middle;
     }
 }
 .slogan {
